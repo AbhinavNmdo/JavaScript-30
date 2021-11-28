@@ -1,0 +1,42 @@
+html{
+    background: url("background.jpg");
+}
+.keys{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 95vh;
+    width: 100%;
+}
+.key{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 0.4rem solid black;
+    width: 6rem;
+    height: 6rem;
+    margin: 1rem;
+    border-radius: 10px;
+    font-size: 1rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: all 0.2s;
+    color: white;
+    background: rgba(0, 0, 0, 0.8);
+    text-shadow: 0 0 0.5rem black;
+}
+.playing{
+    transform: scale(1.4);
+    border-color: #ffc600;
+    box-shadow: 0 0 1rem #ffc600;
+}
+kbd{
+    display: block;
+    font-size: 2rem;
+}
+.sound{
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    color: #ffc600;
+}
